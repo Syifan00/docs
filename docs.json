@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "syi.fan",
+  "name": "syi.fan Docs",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -11,58 +11,55 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Bot WhatsApp",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Panduan Pengguna",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "bot-wa/index",
+              "bot-wa/cara-pakai",
+              "bot-wa/registrasi"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Fitur",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "bot-wa/features/menfess",
+              "bot-wa/features/tiktokdl",
+              "bot-wa/features/imgtosticker",
+              "bot-wa/features/stickertoimg"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Info",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "bot-wa/rules",
+              "bot-wa/faq"
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "Server & Projects",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "Dokumentasi Lain",
             "pages": [
-              "api-reference/introduction"
+              "projects/index",
+              "projects/minecraft-server",
+              "projects/web-dev"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
           {
-            "group": "Endpoint examples",
+            "group": "Endpoints",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "api-reference/introduction",
+              "api-reference/endpoints"
             ]
           }
         ]
@@ -71,14 +68,14 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Page",
+          "href": "https://syi.fan",
+          "icon": "globe"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Discord",
+          "href": "https://discord.gg/zFtmTtX7K2",
+          "icon": "discord"
         }
       ]
     }
@@ -90,27 +87,15 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
+        "label": "Email",
         "href": "mailto:me@syi.fan"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Portofolio",
+      "label": "Kembali ke Web",
       "href": "https://syi.fan"
     }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
   },
   "footer": {
     "socials": {
