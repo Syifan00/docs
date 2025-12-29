@@ -14,11 +14,10 @@
         "tab": "Bot WhatsApp",
         "groups": [
           {
-            "group": "Panduan Pengguna",
+            "group": "Panduan",
             "pages": [
               "bot-wa/index",
-              "bot-wa/cara-pakai",
-              "bot-wa/registrasi"
+              "bot-wa/cara-pakai"
             ]
           },
           {
@@ -33,8 +32,7 @@
           {
             "group": "Info",
             "pages": [
-              "bot-wa/rules",
-              "bot-wa/faq"
+              "bot-wa/rules"
             ]
           }
         ]
